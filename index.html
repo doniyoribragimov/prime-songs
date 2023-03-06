@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/main.min.css" />
+		<title>PRIME MUSIC</title>
+		<link rel="shortcut icon" href="images/logo.svg" type="image/x-icon">
+	</head>
+	<body>
+
+		<div class="container">
+			<header class="header">
+				<a class="logo" href="#">
+					<img class="logo__img" src="images/logo.png" alt="logo icon">
+				</a>
+
+				<div class="header__loop">
+					<img src="images/search-icon.svg" alt="search icon">
+					<input type="text" name="search" placeholder="Search for podcasts">
+				</div>
+
+				<div class="header__search">
+					<img src="images/search-icon.svg" alt="search icon">
+					<input type="text" name="search" placeholder="Search for podcasts">
+				</div>
+
+				<div class="header__content">
+					<a class="header__account" href="#">
+						<img src="images/profile.svg" alt="profile icon">
+					</a>
+
+					<div class="header__profile">
+						
+						<div class="header__current">
+							<img class="header__avi" src="images/profile-photo.jpg" alt="header photo">
+							<div class="header__name">Jerome Bell</span>
+							<img src="images/arrow-dowb.svg" alt="arrow down">
+						</div>
+
+						<div class="header__dropdown">
+							<a class="header__link" href="#">Link 1</a>
+							<a class="header__link" href="#">Link 2</a>
+							<a class="header__link" href="#">Link 3</a>
+						</div>
+
+					</div>
+				</div>
+
+
+			</header>
+			<nav class="menu menu_row">
+				<a class="menu__link active" href="#">
+					<img src="images/home.svg" alt="menu icon">
+					<span>На главную</span>
+				</a>
+
+				<a class="menu__link" href="#">
+					<img src="images/discover.svg" alt="menu icon">
+					<span>Discover</span>
+				</a>
+
+				<a class="menu__link" href="#">
+					<img src="images/album.svg" alt="menu icon">
+					<span>Albums</span>
+				</a>
+
+				<a class="menu__link" href="#">
+					<img src="images/artist.svg" alt="menu icon">
+					<span>Artists</span>
+				</a>
+
+				<a class="menu__link" href="#">
+					<img src="images/home.svg" alt="menu icon">
+					<span>Recent</span>
+				</a>
+
+				<a class="menu__link" href="#">
+					<img src="images/favs.svg" alt="menu icon">
+					<span>Favorites</span>
+				</a>
+
+				<a class="menu__link" href="#">
+					<img src="images/settings.svg" alt="menu icon">
+					<span>Settings</span>
+				</a>
+			</nav>
+			<main class="main">
+				<aside class="aside">
+					<nav class="menu">
+						<a class="menu__link active" href="#">
+							<img src="images/home.svg" alt="menu icon">
+							<span>На главную</span>
+						</a>
+
+						<a class="menu__link" href="#">
+							<img src="images/discover.svg" alt="menu icon">
+							<span>Discover</span>
+						</a>
+
+						<a class="menu__link" href="#">
+							<img src="images/album.svg" alt="menu icon">
+							<span>Albums</span>
+						</a>
+
+						<a class="menu__link" href="#">
+							<img src="images/artist.svg" alt="menu icon">
+							<span>Artists</span>
+						</a>
+
+						<a class="menu__link" href="#">
+							<img src="images/home.svg" alt="menu icon">
+							<span>Recent</span>
+						</a>
+
+						<a class="menu__link" href="#">
+							<img src="images/favs.svg" alt="menu icon">
+							<span>Favorites</span>
+						</a>
+
+						<a class="menu__link" href="#">
+							<img src="images/settings.svg" alt="menu icon">
+							<span>Settings</span>
+						</a>
+					</nav>
+
+					<form class="filter">
+						<div class="filter__search">
+							<input type="text" name="filter" placeholder="Название, текст">
+							<img src="images/filter-search.svg" alt="filter icon">
+						</div>
+
+						<h3 class="filter__title">Вокал</h3>
+						<ul class="filter__list">
+							<li class="filter__li">
+								<label class="filter__label">
+									<input type="checkbox" name="filter">
+									Женский вокал
+								</label>
+							</li>
+							<li class="filter__li">
+								<label class="filter__label">
+									<input type="checkbox" name="filter">
+									Мужской вокал
+								</label>
+							</li>
+						</ul>
+						<h3 class="filter__title">Жанр</h3>
+						<ul class="filter__list">
+							<li class="filter__li">
+								<label class="filter__label">
+									<input type="checkbox" name="filter">
+									Популярное
+								</label>
+							</li>
+							<li class="filter__li">
+								<label class="filter__label">
+									<input type="checkbox" name="filter">
+									Поп
+								</label>
+							</li>
+
+							<li class="filter__li">
+								<label class="filter__label">
+									<input type="checkbox" name="filter">
+									Эстрада/Шансон
+								</label>
+							</li>
+
+							<li class="filter__li">
+								<label class="filter__label">
+									<input type="checkbox" name="filter">
+									Пор-рок/Рок
+								</label>
+							</li>
+
+							<li class="filter__li">
+								<label class="filter__label">
+									<input type="checkbox" name="filter">
+									Танцевальные / House
+								</label>
+							</li>
+
+							<li class="filter__li">
+								<label class="filter__label">
+									<input type="checkbox" name="filter">
+									Рэп | Trap | R'n'B
+								</label>
+							</li>
+						</ul>
+					</form>
+				</aside>
+				<div class="content">
+
+					<div class="music__content">
+						<div class="music__main">
+							<div class="music__info">
+								<h4 class="music__uptitle">New Episode</h4>
+								<h2 class="music__title">A vision for sustainable energy in Africa</h2>
+								<div class="music__artist">Chibeze Ezekiel</div>
+								<a class="music__link" href="#">
+									<img src="images/play.svg" alt="play icon">
+									Listen now
+								</a>
+							</div>
+
+							<img class="music__img" src="images/music-author.png" alt="music author">
+						</div>
+						<div class="music__trends">
+							<div class="music__heading">
+								<span>Лучшие</span> песни недели
+							</div>
+
+							<ul class="music__list">
+								<li class="music__li">
+									<a class="music__list-link" href="#">
+										<div class="music__name">Money management</div>
+										<div class="music__count">132.435</div>
+									</a>
+
+									<a class="music__list-link" href="#">
+										<div class="music__name">Business Strategy</div>
+										<div class="music__count">436.248</div>
+									</a>
+
+									<a class="music__list-link" href="#">
+										<div class="music__name">Investment</div>
+										<div class="music__count">234.612</div>
+									</a>
+
+									<a class="music__list-link" href="#">
+										<div class="music__name">Startup Business</div>
+										<div class="music__count">354.156</div>
+									</a>
+
+									<a class="music__list-link" href="#">
+										<div class="music__name">Success Stories</div>
+										<div class="music__count">165.516</div>
+									</a>
+
+									<a class="music__list-link" href="#">
+										<div class="music__name">Success Stories</div>
+										<div class="music__count">165.516</div>
+									</a>
+
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="music__filter">
+						<div class="music__clear">Очистить фильтры <img src="images/x-icon.svg" alt="x icon"></div>
+						<div class="music__dropdown">
+							<div class="music__current">Рекомендация <img src="images/arrow-down.svg" alt="arrow icon"></div>
+							<div class="music__drops">
+								<div class="music__drop">Новинки</div>
+								<div class="music__drop">Хит</div>
+								<div class="music__drop">Лучшие</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="cards">
+						<div class="cards__item">
+							<img class="cards__img" src="images/cards-1.png" alt="cards img">
+							<div class="cards__songname dot">Утоли мой голод</div>
+							<ul class="cards__list">
+								<li class="cards__li">Поп</li>
+								<li class="cards__li">Мужской вокал</li>
+								<li class="cards__li">Спокойное</li>
+							</ul>
+
+							<div class="cards__bottom">
+								<div class="cards__buy"></div>
+								<div class="cards__foot">
+									<div class="cards__price">
+										95 000 <img src="images/ruble.svg" alt="ruble">
+										<div class="cards__discount">
+										10050 <img src="images/ruble-2.svg" alt="ruble">
+										</div>
+									</div>
+
+									<div class="cards__right">
+										<a class="cards__text" href="#">
+										<img src="images/text.svg" alt="text icon">
+									</a>
+
+									<a href="#" class="cards__btn">
+										<img src="images/cart.svg" alt="cart icon">
+									</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="cards__item">
+							<img class="cards__img" src="images/cards-2.png" alt="cards img">
+							<div class="cards__songname dot">Утоли мой голод</div>
+							<ul class="cards__list">
+								<li class="cards__li">Поп</li>
+								<li class="cards__li">Мужской вокал</li>
+								<li class="cards__li">Спокойное</li>
+							</ul>
+
+							<div class="cards__bottom">
+								<div class="cards__buy"></div>
+								<div class="cards__foot">
+									<div class="cards__price">
+										95 000 <img src="images/ruble.svg" alt="ruble">
+										<div class="cards__discount">
+										10050 <img src="images/ruble-2.svg" alt="ruble">
+										</div>
+									</div>
+
+									<div class="cards__right">
+										<a class="cards__text" href="#">
+										<img src="images/text.svg" alt="text icon">
+									</a>
+
+									<a href="#" class="cards__btn">
+										<img src="images/cart.svg" alt="cart icon">
+									</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="cards__item">
+							<img class="cards__img" src="images/cards-3.png" alt="cards img">
+							<div class="cards__songname dot">Утоли мой голод</div>
+							<ul class="cards__list">
+								<li class="cards__li">Поп</li>
+								<li class="cards__li">Мужской вокал</li>
+								<li class="cards__li">Спокойное</li>
+							</ul>
+
+							<div class="cards__bottom">
+								<div class="cards__buy"></div>
+								<div class="cards__foot">
+									<div class="cards__price">
+										95 000 <img src="images/ruble.svg" alt="ruble">
+										<div class="cards__discount">
+										10050 <img src="images/ruble-2.svg" alt="ruble">
+										</div>
+									</div>
+
+									<div class="cards__right">
+										<a class="cards__text" href="#">
+										<img src="images/text.svg" alt="text icon">
+									</a>
+
+									<a href="#" class="cards__btn">
+										<img src="images/cart.svg" alt="cart icon">
+									</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="cards__item">
+							<img class="cards__img" src="images/cards-4.png" alt="cards img">
+							<div class="cards__songname dot">Утоли мой голод</div>
+							<ul class="cards__list">
+								<li class="cards__li">Поп</li>
+								<li class="cards__li">Мужской вокал</li>
+								<li class="cards__li">Спокойное</li>
+							</ul>
+
+							<div class="cards__bottom">
+								<div class="cards__buy"></div>
+								<div class="cards__foot">
+									<div class="cards__price">
+										95 000 <img src="images/ruble.svg" alt="ruble">
+										<div class="cards__discount">
+										10050 <img src="images/ruble-2.svg" alt="ruble">
+										</div>
+									</div>
+
+									<div class="cards__right">
+										<a class="cards__text" href="#">
+										<img src="images/text.svg" alt="text icon">
+									</a>
+
+									<a href="#" class="cards__btn">
+										<img src="images/cart.svg" alt="cart icon">
+									</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="cards__item">
+							<img class="cards__img" src="images/cards-5.png" alt="cards img">
+							<div class="cards__songname dot">Утоли мой голод</div>
+							<ul class="cards__list">
+								<li class="cards__li">Поп</li>
+								<li class="cards__li">Мужской вокал</li>
+								<li class="cards__li">Спокойное</li>
+							</ul>
+
+							<div class="cards__bottom">
+								<div class="cards__buy"></div>
+								<div class="cards__foot">
+									<div class="cards__price">
+										95 000 <img src="images/ruble.svg" alt="ruble">
+										<div class="cards__discount">
+										10050 <img src="images/ruble-2.svg" alt="ruble">
+										</div>
+									</div>
+
+									<div class="cards__right">
+										<a class="cards__text" href="#">
+										<img src="images/text.svg" alt="text icon">
+									</a>
+
+									<a href="#" class="cards__btn">
+										<img src="images/cart.svg" alt="cart icon">
+									</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="cards__item">
+							<img class="cards__img" src="images/cards-6.png" alt="cards img">
+							<div class="cards__songname dot">Утоли мой голод</div>
+							<ul class="cards__list">
+								<li class="cards__li">Поп</li>
+								<li class="cards__li">Мужской вокал</li>
+								<li class="cards__li">Спокойное</li>
+							</ul>
+
+							<div class="cards__bottom">
+								<div class="cards__buy"></div>
+								<div class="cards__foot">
+									<div class="cards__price">
+										95 000 <img src="images/ruble.svg" alt="ruble">
+										<div class="cards__discount">
+										10050 <img src="images/ruble-2.svg" alt="ruble">
+										</div>
+									</div>
+
+									<div class="cards__right">
+										<a class="cards__text" href="#">
+										<img src="images/text.svg" alt="text icon">
+									</a>
+
+									<a href="#" class="cards__btn">
+										<img src="images/cart.svg" alt="cart icon">
+									</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="cards__item">
+							<img class="cards__img" src="images/cards-7.png" alt="cards img">
+							<div class="cards__songname dot">Утоли мой голод</div>
+							<ul class="cards__list">
+								<li class="cards__li">Поп</li>
+								<li class="cards__li">Мужской вокал</li>
+								<li class="cards__li">Спокойное</li>
+							</ul>
+
+							<div class="cards__bottom">
+								<div class="cards__buy"></div>
+								<div class="cards__foot">
+									<div class="cards__price">
+										95 000 <img src="images/ruble.svg" alt="ruble">
+										<div class="cards__discount">
+										10050 <img src="images/ruble-2.svg" alt="ruble">
+										</div>
+									</div>
+
+									<div class="cards__right">
+										<a class="cards__text" href="#">
+										<img src="images/text.svg" alt="text icon">
+									</a>
+
+									<a href="#" class="cards__btn">
+										<img src="images/cart.svg" alt="cart icon">
+									</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="cards__item">
+							<img class="cards__img" src="images/cards-8.png" alt="cards img">
+							<div class="cards__songname dot">Утоли мой голод</div>
+							<ul class="cards__list">
+								<li class="cards__li">Поп</li>
+								<li class="cards__li">Мужской вокал</li>
+								<li class="cards__li">Спокойное</li>
+							</ul>
+
+							<div class="cards__bottom">
+								<div class="cards__buy"></div>
+								<div class="cards__foot">
+									<div class="cards__price">
+										95 000 <img src="images/ruble.svg" alt="ruble">
+										<div class="cards__discount">
+										10050 <img src="images/ruble-2.svg" alt="ruble">
+										</div>
+									</div>
+
+									<div class="cards__right">
+										<a class="cards__text" href="#">
+										<img src="images/text.svg" alt="text icon">
+									</a>
+
+									<a href="#" class="cards__btn">
+										<img src="images/cart.svg" alt="cart icon">
+									</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="cards__item">
+							<img class="cards__img" src="images/cards-9.png" alt="cards img">
+							<div class="cards__songname dot">Утоли мой голод</div>
+							<ul class="cards__list">
+								<li class="cards__li">Поп</li>
+								<li class="cards__li">Мужской вокал</li>
+								<li class="cards__li">Спокойное</li>
+							</ul>
+
+							<div class="cards__bottom">
+								<div class="cards__buy"></div>
+								<div class="cards__foot">
+									<div class="cards__price">
+										95 000 <img src="images/ruble.svg" alt="ruble">
+										<div class="cards__discount">
+										10050 <img src="images/ruble-2.svg" alt="ruble">
+										</div>
+									</div>
+
+									<div class="cards__right">
+										<a class="cards__text" href="#">
+										<img src="images/text.svg" alt="text icon">
+									</a>
+
+									<a href="#" class="cards__btn">
+										<img src="images/cart.svg" alt="cart icon">
+									</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="cards__item">
+							<img class="cards__img" src="images/cards-10.png" alt="cards img">
+							<div class="cards__songname dot">Утоли мой голод</div>
+							<ul class="cards__list">
+								<li class="cards__li">Поп</li>
+								<li class="cards__li">Мужской вокал</li>
+								<li class="cards__li">Спокойное</li>
+							</ul>
+
+							<div class="cards__bottom">
+								<div class="cards__buy"></div>
+								<div class="cards__foot">
+									<div class="cards__price">
+										95 000 <img src="images/ruble.svg" alt="ruble">
+										<div class="cards__discount">
+										10050 <img src="images/ruble-2.svg" alt="ruble">
+										</div>
+									</div>
+
+									<div class="cards__right">
+										<a class="cards__text" href="#">
+										<img src="images/text.svg" alt="text icon">
+									</a>
+
+									<a href="#" class="cards__btn">
+										<img src="images/cart.svg" alt="cart icon">
+									</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="cards__item">
+							<img class="cards__img" src="images/cards-11.png" alt="cards img">
+							<div class="cards__songname dot">Утоли мой голод</div>
+							<ul class="cards__list">
+								<li class="cards__li">Поп</li>
+								<li class="cards__li">Мужской вокал</li>
+								<li class="cards__li">Спокойное</li>
+							</ul>
+
+							<div class="cards__bottom">
+								<div class="cards__buy"></div>
+								<div class="cards__foot">
+									<div class="cards__price">
+										95 000 <img src="images/ruble.svg" alt="ruble">
+										<div class="cards__discount">
+										10050 <img src="images/ruble-2.svg" alt="ruble">
+										</div>
+									</div>
+
+									<div class="cards__right">
+										<a class="cards__text" href="#">
+										<img src="images/text.svg" alt="text icon">
+									</a>
+
+									<a href="#" class="cards__btn">
+										<img src="images/cart.svg" alt="cart icon">
+									</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="cards__item">
+							<img class="cards__img" src="images/cards-12.png" alt="cards img">
+							<div class="cards__songname dot">Утоли мой голод</div>
+							<ul class="cards__list">
+								<li class="cards__li">Поп</li>
+								<li class="cards__li">Мужской вокал</li>
+								<li class="cards__li">Спокойное</li>
+							</ul>
+
+							<div class="cards__bottom">
+								<div class="cards__buy"></div>
+								<div class="cards__foot">
+									<div class="cards__price">
+										95 000 <img src="images/ruble.svg" alt="ruble">
+										<div class="cards__discount">
+										10050 <img src="images/ruble-2.svg" alt="ruble">
+										</div>
+									</div>
+
+									<div class="cards__right">
+										<a class="cards__text" href="#">
+										<img src="images/text.svg" alt="text icon">
+									</a>
+
+									<a href="#" class="cards__btn">
+										<img src="images/cart.svg" alt="cart icon">
+									</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</main>
+		</div>
+
+		<div class="modal">
+			<div class="modal__inner">
+				<img class="modal__close" src="images/x-icon.svg" alt="x icon">
+				
+
+				<form class="filter">
+					<div class="filter__search">
+						<input type="text" name="filter" placeholder="Название, текст">
+						<img src="images/filter-search.svg" alt="filter icon">
+					</div>
+
+					<h3 class="filter__title">Вокал</h3>
+					<ul class="filter__list">
+						<li class="filter__li">
+							<label class="filter__label">
+								<input type="checkbox" name="filter">
+								Женский вокал
+							</label>
+						</li>
+						<li class="filter__li">
+							<label class="filter__label">
+								<input type="checkbox" name="filter">
+								Мужской вокал
+							</label>
+						</li>
+					</ul>
+					<h3 class="filter__title">Жанр</h3>
+					<ul class="filter__list">
+						<li class="filter__li">
+							<label class="filter__label">
+								<input type="checkbox" name="filter">
+								Популярное
+							</label>
+						</li>
+						<li class="filter__li">
+							<label class="filter__label">
+								<input type="checkbox" name="filter">
+								Поп
+							</label>
+						</li>
+
+						<li class="filter__li">
+							<label class="filter__label">
+								<input type="checkbox" name="filter">
+								Эстрада/Шансон
+							</label>
+						</li>
+
+						<li class="filter__li">
+							<label class="filter__label">
+								<input type="checkbox" name="filter">
+								Пор-рок/Рок
+							</label>
+						</li>
+
+						<li class="filter__li">
+							<label class="filter__label">
+								<input type="checkbox" name="filter">
+								Танцевальные / House
+							</label>
+						</li>
+
+						<li class="filter__li">
+							<label class="filter__label">
+								<input type="checkbox" name="filter">
+								Рэп | Trap | R'n'B
+							</label>
+						</li>
+					</ul>
+				</form>
+			</div>
+		</div>
+
+		<div class="filter-btn">
+			<img src="images/filter.svg" alt="filter">
+			Фильтр
+		</div>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="js/libs.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>

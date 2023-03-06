@@ -1,0 +1,170 @@
+@media(max-width: 1400px){
+  .main{
+    gap: 25px;
+  }
+
+  .music{
+    &__main{
+        padding-right: 150px;
+    }
+  }
+}
+
+@media(max-width: 1200px){
+    .main{
+      gap: 25px;
+      grid-template-columns: 1fr;
+    }
+
+    .menu_row{
+        display: flex;
+    }
+  
+    .aside{
+      display: none;
+    }
+
+    .music{
+        &__content{
+            grid-template-columns: 1fr;
+        }
+
+        &__main{
+            padding-right: 300px;
+        }
+        
+        &__heading{
+            margin-bottom: 15px;
+        }
+    }
+
+    .cards{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .logo{
+        width: 100px;
+    }
+
+    .header{
+        &__search, &__loop{
+            input{
+                height: 50px;
+            }
+        }
+
+        &__name{
+            font-size: 0; 
+        }
+    }
+
+
+
+}
+
+@media(max-width: 768px){
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .music{
+        &__main{
+            padding-right: 150px;
+            overflow-y: hidden;
+        }
+        
+        &__img{
+            width: 250px;
+            height: 350px;
+            margin-bottom: -10px;
+        }
+
+        &__title{
+            font-size: 25px;
+        }
+    }
+
+}
+
+@media(max-width: 600px){
+    .container{
+        padding: 0 20px;
+    }
+
+    .header{
+        position: relative;
+        padding-bottom: 45px;
+        &__search,
+        &__loop{
+            display: none;
+            input{
+                padding-left: 35px;
+                height: 40px;
+            }
+
+            img{
+                height: 15px;
+                width: 15px;
+                left: 10px;
+            }
+        }
+
+        &__loop{
+            display: block;
+            position: absolute;
+            left: 0;
+            bottom: 15px;
+            right: 0;
+        }
+    }
+
+    .menu_row{
+        margin-bottom: 20px;
+    }
+
+    .music{
+        &__main{
+            height: 300px;
+            padding-right: 100px;
+        }
+
+        &__info{
+            padding: 15px;
+            padding-right: 50px;
+        }
+
+        &__img{
+            width: 250px;
+        }
+        
+        &__filter{
+            gap: 10px;
+            justify-content: space-between;
+            font-size: 14px;
+        }
+    }
+
+    .cards{
+        gap: 10px;
+        &__songname{
+            font-size: 18px;
+        }
+
+        &__foot{
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        &__btn{
+            flex: 1;
+        }
+    }
+
+    .modal{
+        &__inner{
+            width: 90%;
+            padding: 20px;
+            padding-top: 60px;
+        }
+    }
+}
